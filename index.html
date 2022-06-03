@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Users API</title>
+  </head>
+  <body>
+    <form name="searchForm">
+      <label>Users amount: <input type="number" name="results" /></label>
+      <br />
+      <label>Male: <input type="radio" name="gender" value="male" /></label>
+      <label>Female: <input type="radio" name="gender" value="female" /></label>
+      <br />
+      <button type="submit">Search</button>
+      <button type="reset">Clear</button>
+    </form>
+    <div id="content"></div>
+    <div id="loader" class="loader hidden" title="Page is loading">
+      <span class="loader__inner"></span>
+    </div>
+    <script src="./scipts.js"></script>
+  </body>
+</html>

@@ -28,4 +28,4 @@ console.log('show content');
 
 const users = [person, person, person];
 
-// sessionStorage.setItem('USERS', JSON.stringify(users));
+sessionStorage.setItem('USERS', JSON.stringify(users));

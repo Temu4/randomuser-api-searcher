@@ -11,7 +11,7 @@ const person = {
 //   data.json();
 // }
 
-JSON.parse(personInJson); // parse a string (json) to an object
+// JSON.parse(personInJson); // parse a string (json) to an object
 
 const dataFromLocalStorageJSON = localStorage.getItem('IS_CONFIRMED'); // null
 

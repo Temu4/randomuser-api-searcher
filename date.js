@@ -33,7 +33,7 @@ const calcTimeToNY = (currentDate) => {
   console.log(result);
 };
 
-setInterval(() => {
-  const currentDate = new Date();
-  calcTimeToNY(currentDate);
-}, 1000);
+// setInterval(() => {
+//   const currentDate = new Date();
+//   calcTimeToNY(currentDate);
+// }, 1000);

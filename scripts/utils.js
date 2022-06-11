@@ -1,6 +1,7 @@
 const loader = document.getElementById('loader');
 
 function hideLoader() {
+  const loader = document.getElementById('loader');
   loader.classList.add('hidden');
 }
 
@@ -31,4 +32,13 @@ const createUserCard = (user) => {
     </div>`;
 };
 
-export {hideLoader, showLoader, createUserCard};
+function renderUsersCards(users) {
+  let usersHTML = '';
+  users.forEach((element) => {
+    usersHTML += createUserCard(element);
+  });
+
+  content.innerHTML = usersHTML;
+}
+
+export {hideLoader, showLoader, createUserCard, renderUsersCards};
